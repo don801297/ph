@@ -1,0 +1,291 @@
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  
+}
+
+
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+.cont1{
+  width: 94%;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-top: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+ 
+}
+.header{
+  background-color: powderblue;
+    border-color: powderblue;
+    padding: 10px 15px;
+    border-bottom: 2px solid powderblue;
+ 
+
+}
+
+.heading{
+  text-align: center;
+    font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;  
+  
+}
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: -webkit-fill-available;
+}
+.form{
+  padding: 15px;
+}
+.card-num{
+ margin-bottom: 15px;
+}
+
+label{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.form-control {
+    display: block;
+    width: 92%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.expiry{
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+}
+
+.expiry-mm{
+  width: 145px;
+  margin-bottom: 15px;
+}
+
+.expiry-cvv{
+  width: 105px;
+  margin-bottom: 15px;
+}
+
+.mm{
+  display: block;
+width: 92%;
+height: 50px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.yy{
+  display: block;
+width: 92%;
+height: 50px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.btn-section{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+button{
+  display: block;
+  width: 100%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: green;
+    
+}
+
+
+
+
+
+.login-box{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+  padding: 15px;
+  margin: 18% 12px 0px 12px
+}
+
+.title{
+  text-align: center;
+  color: white;
+  
+}
+
+.message{
+  text-align: center;
+  color: white;
+}
+
+.otp-input{
+  width: 45%;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.timer{
+  text-align: center;
+  color: cornsilk;
+}
+
+
+.a-button{
+  display: block;
+  width: 75%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: green;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.card-heading{
+  text-align: center;
+    font-size: larger;
+    margin-bottom: -2px;
+}
+
+
+.payment-option-box {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 8px 0 #9e9e9e;
+  background-color: #ffffff;
+  width: 85%;
+  height: 55px;
+  align-items: center;
+  margin: auto;
+  margin-top: 60px;
+  border: 2px solid #b8bec4;
+  border-radius: 15px;
+}
+
+
+.card-logo{
+  display: contents;
+}
+
+.span{
+  display: inline-block;
+  font-size: xx-large;
+}
+
+#c-heading{
+  font-size: medium;
+}
+
+#pay{
+  font-size: x-large;
+    text-decoration: unset;
+}
+
+.net{
+  margin-bottom: 45px;
+}
+
+
+.tips-box{
+  width: 92%;
+  border: 2px solid #b8bec4;
+  padding: 10px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 35px;
+}
+
+.tips{
+  font-weight: bold;
+}
+
+.important-lins{
+  margin: 12px 0px;
+}
+svg{
+  
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.navbar{
+  background-color: #323232;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-heading{
+  color: white;
+  margin: auto;
+  font-size: larger;
+  
+}
+
