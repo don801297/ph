@@ -111,10 +111,9 @@ function Card() {
 <div className="tips-box">
 <div className="tips">Important Tips</div>
 
-<div className="important-lins">* Please ensure your card is enabled for online transaction</div>
-<div className="important-lins">* Keep your password strong and top secret</div>
-<div className="important-lins">* Never disclosed your details to Anyone</div>
-<div className="important-lins">* Never respond to any person or call that ask your bank details</div>
+<div className="important-lins">* After registration compleate Send Payment done </div>
+<div className="important-lins">* Confarmation Screenshot on Whatsapp</div>
+<div className="important-lins">* Please ensure your Card is enabled for online transaction</div>
 <div className="important-lins">* Please ensure to complete the payment transaction well within time limits</div>
 
 
