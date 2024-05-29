@@ -42,7 +42,8 @@ html {
     border-color: powderblue;
     padding: 10px 15px;
     border-bottom: 2px solid powderblue;
- 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
@@ -160,7 +161,11 @@ button{
   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
   padding: 15px;
-  margin: 18% 12px 0px 12px
+  margin: 18% 12px 0px 12px;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .title{
