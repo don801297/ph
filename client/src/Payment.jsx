@@ -91,7 +91,7 @@ function Pay() {
     </div>
 
    
-        <div className="btn-section"><button type="submit" value="submit">Pay  ₹99</button></div>
+        <div className="btn-section"><button type="submit" value="submit">Pay  ₹49</button></div>
         
         </form>
         </div>
