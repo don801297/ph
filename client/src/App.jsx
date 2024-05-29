@@ -22,14 +22,16 @@ const handleclick = () =>{
 
 <div className="navbar">
  
-
-<p className='nav-heading'>Welcome To page</p>
+<img className="img navlogo" src="./img/navlogo2.png" alt="fail img to load net banking" />
+<p className='nav-heading main-nav-heading'>Phone Shop</p>
 </div>
 
 
  <div className="cont1">
  <div className="header">
+          
           <div className="heading">Payment Options</div>
+          <img className="img" src="./img/net4.png" alt="fail img to load net banking" />
           
         </div>
 
@@ -67,14 +69,10 @@ const handleclick = () =>{
         <div className="tips-box">
 <div className="tips">Important Tips</div>
 
-<div className="important-lins">* NOTE After registration compleate Send Payment done Confarmation Screenshot on Whatsapp</div>
+<div className="important-lins">* After registration compleate Send Payment done </div>
+<div className="important-lins">* Confarmation Screenshot on Whatsapp</div>
 <div className="important-lins">* Please ensure your Card or Net banking is enabled for online transaction</div>
-<div className="important-lins">* Keep your password strong and top secret</div>
-<div className="important-lins">* Never disclosed your details to Anyone</div>
 <div className="important-lins">* Please ensure to complete the payment transaction well within time limits</div>
-
-
-
 
 </div>
     </>
