@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Otp() {
 
-  const [counter, setCounter] = React.useState(59);
+  const [counter, setCounter] = React.useState(120);
   React.useEffect(() => {
       const timer =
       counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
